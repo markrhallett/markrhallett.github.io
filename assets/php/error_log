@@ -1,0 +1,5 @@
+[08-Nov-2017 16:26:25 America/New_York] PHP Notice:  Undefined variable: name in /home/halliefg/public_html/assets/php/form-process.php on line 41
+[08-Nov-2017 16:26:25 America/New_York] PHP Notice:  Undefined variable: email in /home/halliefg/public_html/assets/php/form-process.php on line 44
+[08-Nov-2017 16:26:25 America/New_York] PHP Notice:  Undefined variable: msg_subject in /home/halliefg/public_html/assets/php/form-process.php on line 47
+[08-Nov-2017 16:26:25 America/New_York] PHP Notice:  Undefined variable: message in /home/halliefg/public_html/assets/php/form-process.php on line 50
+[08-Nov-2017 16:26:25 America/New_York] PHP Notice:  Undefined variable: email in /home/halliefg/public_html/assets/php/form-process.php on line 54
