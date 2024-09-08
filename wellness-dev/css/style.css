@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 3rem;
+}	
+
+.navbar-dark .navbar-toggler {
+	color: white !important;
+	border: none !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("../img/mobile-menu.svg") !important;
+}
+
+a.nav-link {
+	text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.navbar-expand-md {
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.navbar-collapse {
+	flex-grow: 0 !important;
+}
+
+li.nav-item.active {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
+	padding: 0 20px;
+}
+
+.top {
+	position:relative;
+	background-image: url("../img/health-banner.jpg"); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#464646;
+	color:white;
+	min-height:600px;
+}
+
+.layer {
+	background: rgba(0,0,0,.4);    
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+		
+.inner a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+		
+nav#top {
+    max-width: 80%;
+    margin: 0 auto;
+	padding-top: 40px;
+}		
+
+.first-section {
+	background-color:#FF8759;
+	background: repeating-linear-gradient( 45deg, #FF8759, #FF8759 10px, #f98356 10px, #f98356 20px );
+
+}		
+		
+.row.wellness {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}		
+	
+.section {
+    margin-bottom: 60px;
+}		
+		
+.card {
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+		
+.fifth-section {
+	background-color: #52BBBD;
+	margin-top: -350px;
+	margin-bottom: 0;
+	background: repeating-linear-gradient( 45deg, #60c0c2, #60c0c2 10px, #60bec0 10px, #60bec0 20px );
+}
+
+.container.fifth {
+    padding-top: 340px;
+	padding-bottom:100px;
+}		
+		
+.sixth-section {
+	position:relative;
+	background-image: url("../img/fitness.jpg"); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#464646;
+	color:white;
+	padding-top:400px;
+	margin-bottom: 0;
+}
+		
+.row.events {
+    color: white;
+    padding: 30px;
+    text-align: left;
+}	
+
+p.date {
+    font-size: 48px;
+    margin: 0;
+    margin-top: 5px;
+    line-height: .6;
+    padding: 0;
+}
+		
+p.month {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}		
+		
+.col-md-1.event-date {
+    text-align: center;
+    border-left: none;
+}		
+
+.col-md-3.last {
+	border-right: 1px solid white;
+}	
+
+.wellness h2 {
+		font-family: 'Dancing Script', cursive;
+}		
+
+.col-md-12.latest-events h2 {
+	font-size: 80px;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 0 0 10px black;
+}		
+
+.col-md-3.margin {
+	margin: 0;
+	max-width: 25%;
+}
+
+.small-margin {
+	margin:0;
+}		
+
+.grid-img {
+	width:100%;
+}
+
+.absolute-box {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	margin-left: -15px;
+	height: 100%;
+	text-align: center;*/
+}
+
+.absolute-box h3 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.centered-flex {
+	align-self: center;
+	margin: 0 auto;
+	text-align: center;
+}	
+
+h2.section-title {
+	margin:0 auto;
+	text-align:center;
+	margin:20px;
+}
+
+footer {
+	background-color: #FF8759;
+	color:White;
+	padding:20px;
+	margin-bottom: 0;
+}
+footer p.copyright {
+	text-align:center;
+}
+
+.container.width {
+	max-width: 100%;
+}
+
+.event-list {
+    background: rgba(0,0,0,.5);
+	padding: 50px 0;
+
+}
+
+.col-md-12.latest-events {
+    padding-left: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+.bike-img {
+	width: 90%;
+}
+
+.wellness p {
+	font-size: 21px;
+	font-weight: 300;
+	max-width: 95%;
+	margin: 0 auto;
+	line-height: 1.1;
+}
+
+p.washu-moves {
+	padding-bottom: 30px;
+}
+
+ul.social li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+}
+
+ul.footer-menu li {
+	list-style-type: none;
+	padding: 5px;
+}
+img.bike-img {
+	width: 100%;
+}
+
+ul.footer-menu li a {
+	color: white;
+}
+
+hr {
+	background-color: white;
+	opacity: .3;
+}
+
+.content p.sub-title {
+	font-size: 18px;
+	text-shadow: 0 0 20px #000;
+}
+
+.content h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	text-shadow: 0 0 20px #000;
+	font-size:28px;
+}
+
+header.container {
+	text-align: center;
+	max-width: 95%;
+	padding-top: 20px;
+}
+
+a.cta-button {
+	color: white;
+	font-size: 1.1em;
+	border: 2px solid white;
+	padding: 10px 5px;
+	background-color: rgba(0,0,0,.2);
+}
+
+p.cta a.cta-button {
+	background-color: rgba(0,0,0,.4);
+}
+
+.col-md-3.event-listing p {
+	text-align: center;
+	padding-bottom: 20px;
+}	
+
+.col-md-3.last {
+   border-right: none;
+}
+
+.container.footer-content {
+	text-align: center;
+}
+
+ul{
+	margin-left: 0;
+	padding-left: 0;
+}
+		
+@media (max-width:429px){
+
+	div#navbarsExampleDefault {
+		background-color: white;
+	}
+
+	.navbar-dark .navbar-nav .active > .nav-link {
+		color: black;
+		text-shadow:none;
+	}
+
+	.navbar-nav {
+		padding:20px;
+	}
+	
+	header.container {
+		padding-top:100px;
+	}
+}
+		
+@media (min-width:430px){
+	header.container {
+		padding-top:100px;
+	}
+
+	.wellness p {
+		max-width: 85%;
+	}
+}
+
+@media (max-width: 768px){		
+	div#navbarsExampleDefault {
+		background-color: white;
+	}
+
+	.navbar-dark .navbar-nav .active > .nav-link {
+		color: black;
+		text-shadow:none;
+	}
+
+	.navbar-nav {
+		padding:20px;
+	}
+}
+
+			
+@media (min-width: 768px){
+	.col-md-3.event-listing p {
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	
+	.col-md-1.event-date {
+	   text-align: right;
+		border-left: 1px solid white;
+	}
+	
+	.col-md-3.last {
+	   border-right: 1px solid white;
+	}
+	
+	.col-md-12.latest-events {
+		padding-left: 0;
+		margin: 0;
+		text-align: left;
+	}
+	
+	.container.footer-content {
+		text-align: left;
+	}
+
+	li.nav-item.active {
+		padding: 0 10px;
+	}
+}
+			
+@media (min-width: 800px){
+	.content p.sub-title {
+		font-size: 20px;
+	}
+
+	.content h1 {
+		font-size:36px;
+	}
+
+	a.cta-button { 
+		padding: 10px 20px;
+	}
+
+	header.container {
+		max-width: 80%;
+		padding-top: 100px;
+	}
+	.wellness p {
+		max-width: 75%;
+	}
+
+}
+		
+@media (min-width: 1200px){
+	header.container {
+		max-width: 60%;
+	}
+
+	.content p.sub-title {
+		font-size: 20px;
+	}
+	
+	.content h1 {
+		font-size: 48px;
+	}
+
+}
+		
