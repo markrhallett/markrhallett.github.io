@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="74px" viewBox="0 0 84 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="schedule-svg" transform="translate(15.500000, 5.000000)">
+            <rect id="Rectangle" stroke="#2D345E" stroke-width="3" x="1" y="7.71495327" width="53.2056075" height="53.7850467" rx="6"></rect>
+            <path d="M1,24.9953271 L54.2056075,24.9953271 L54.2056075,12.2149533 C54.2056075,9.7296719 52.1908889,7.71495327 49.7056075,7.71495327 L5.5,7.71495327 C3.01471863,7.71495327 1,9.7296719 1,12.2149533 L1,24.9953271 Z" id="Rectangle" stroke="#2D345E" stroke-width="3"></path>
+            <polygon id="Line-5" fill="#2D345E" fill-rule="nonzero" points="10.3657604 0.5 10.3657604 18.5654206 13.3657604 18.5654206 13.3657604 0.5"></polygon>
+            <polygon id="Line-5" fill="#2D345E" fill-rule="nonzero" points="25.7209006 0.5 25.7209006 18.5654206 28.7209006 18.5654206 28.7209006 0.5"></polygon>
+            <polygon id="Line-5" fill="#2D345E" fill-rule="nonzero" points="41.0760408 0.5 41.0760408 18.5654206 44.0760408 18.5654206 44.0760408 0.5"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1234 @@
+<!doctype html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<meta charset="UTF-8">
+<title>Department of Psychiatry | Washington University School of Medicine</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+	
+	body {
+		margin:0;
+		padding:0;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	a {
+		color: #3b224c;
+		text-decoration:none;
+		font-weight:600;
+	}
+	
+	a:hover {
+		text-decoration:underline;
+	}
+	
+	ul {
+		padding:0;
+		margin:0;
+	}
+	.topnav {
+		display:none;
+	}
+	.adolescent-imagery {
+		display:flex;
+		flex-wrap:wrap;
+		background-color: #3b224c;
+
+	}
+	
+.left-psychiatry {
+    color: white;
+    flex: 26%;
+    z-index: 100;
+    align-self: center;
+}
+.left-psychiatry-text {
+    max-width: 320px;
+    float: right;
+    padding-right: 50px;
+}
+	.right-psychiatry {
+		flex:50%;
+		background-image:url("img/child-and-baby2.jpg");
+		background-size:cover;
+		background-position: 50% 50%;
+	}
+	
+button.secondary-btn {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: #2D345E;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 600;
+}	
+	
+.left-psychiatry-text h2 {
+    margin-right: -176px;
+    z-index: 100;
+	color:white;
+    background-color: #181B32;
+    padding: 15px;
+}
+	
+.search-input {
+    margin: 0;
+    float: left;
+    padding: 8px;
+	width: 90%;
+}
+	
+	.submit-input {
+    padding: 0;
+    float: left;
+}
+	
+	.first-section {
+		background-color: #f1f1f1;
+	}
+	
+	.first-section-wrapper {
+		max-width: 1000px;
+    	margin: 0 auto;
+    	display: flex;
+		padding:50px 0;
+	}
+	
+	.first-section-left {
+		flex:70%;
+		padding-right: 30px;
+	}
+	
+	.first-section-right {
+		flex: 30%;
+	}
+	
+	.first-section-right li {
+		list-style-type:none;
+	}
+	
+	.second-section-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 70px 0;
+	}
+	
+	.second-section-wrapper h2 {
+		text-align: center;
+	}
+	
+	.second-section-wrapper p.sub-text {
+		text-align:center;
+	}
+	
+	.care-cards {
+ 	    display: flex;
+    	flex-wrap: wrap;
+		padding-top:50px;
+	}
+	
+	.care {
+   	 	display: flex;
+   		flex: 50%;
+		padding-right:100px;
+	}
+	
+	.care-icon {
+ 	   flex: 20%;
+	}
+	
+	.care-heading {
+ 	   flex: 80%;
+	}
+	
+	.care-heading h3 {
+		margin: 0;
+		font-size: 22px;
+		padding: 0;
+	}
+	
+	.third-section {
+		background-image:url("img/miracles-banner.jpg");
+		background-size:cover;
+		background-position:0 0;
+	}
+	
+	.third-section-wrapper {
+		margin: 0 auto;
+		text-align: center;
+		padding: 100px;
+		max-width: 900px;
+	}
+	
+	.miracle-heading h3 {
+		text-transform: uppercase;
+		font-size: 48px;
+		margin: 0;
+		text-shadow: 0 0 10px black;
+		padding: 0;
+		color: white;
+		letter-spacing: 4px;
+		line-height: 1;
+	}
+	
+	.miracle-heading p {
+		font-size: 20px;
+		color: white;
+		text-shadow: 0 0 10px rgba(0,0,0,1);
+	}
+	
+	
+	p.sub-text {
+   	 	font-size: 20px;
+	}
+	
+	.our-locations ul {
+		padding-top:20px;
+	}
+	
+	.our-locations p {
+    	background-color: #2D345E;
+    	display: inline;
+    	padding: 3px 30px;
+    	color: white;
+	}
+	
+	.fourth-section-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 50px 0 0;
+		text-align: center;
+	}
+	
+	.fourth-section-wrapper h2 {
+		padding-bottom:50px;
+	}
+	
+	.card {
+		display: flex;
+    	    padding: 30px 10px;
+	}
+	
+	.card img {
+		margin: 0 auto;
+	}
+	
+	.card-row {
+		display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+	}
+	
+	.card-body {
+    	border: 1px solid #ccc;
+		border-radius: 30px;
+		padding: 60px 20px 30px;
+		width: 100%;
+		margin: 25px;
+		background-color: white;
+	}
+	
+	.card-body h4 {
+ 	    color: #2D345E;
+    	font-size: 18px;
+	}
+	
+	.headshot img {
+ 	    border-radius: 100px;
+   		border: 2px solid #ccc;
+	    margin-top: -115px;
+	}
+	
+	.card-body button {
+ 	    background-color: #2D345E;
+   	    border: none;
+    	color: white;
+    	font-size: 16px;
+    	padding: 10px 20px;
+    	border-radius: 50px;
+	}
+	
+	.fifth-section {
+		background-color: #2D345E;
+		margin-top: -105px;
+	}
+	
+	.fifth-section-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 80px 0 50px;
+		text-align: center;
+	}
+	
+	.fifth-section-wrapper li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 0 10px;
+	}
+	
+	.footer {
+		color: #3d3d3d;
+		background-color: #F0F0F0;
+		min-height:100px;
+	
+	}
+	
+	.footer-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		padding-left: 10px;
+		flex-wrap: wrap;
+	}
+	
+	.footer-column {
+		flex: 33%;
+		padding-right: 50px;
+	}	
+	
+	.footer-column li {
+		list-style-type: none;
+	}
+	
+	.footer-column h2 {
+		color: white;
+		font-size: 24px;
+	}
+	
+	.address {
+		line-height:5px;
+	}
+	
+	.bottom {
+		flex: 100%;
+		padding-bottom: 10px;
+	}
+	
+	.bottom hr {
+		opacity:.3;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
+	
+	h3.dept-title {
+		font-weight:300;
+		font-size: 22px;
+		margin-top: 15px;
+		padding: 0;
+	}
+	
+.topnav #myLinks {
+  display: none;
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 0;
+	color: #3d3d3d;
+	width: 100%;
+	top:150px;
+	z-index:1000;
+	
+}
+
+.topnav a {
+  color: #3d3d3d;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  	display: block;
+  	position: absolute;
+ 	right: 0;
+	font-size:24px;
+ 	top: 80px;
+	color: #3b224c;
+}
+
+	/*
+	.myLinks {
+		display:none;
+		background-color: white;
+		color: #3d3d3d;
+		width:100%;
+		position: absolute;
+		top: 150px;
+		z-index:1000;
+	}
+		*/
+	#myLinks ul.main li {
+		list-style-type: none;
+		padding: 20px 50px;
+		border-bottom: 1px solid #eee;
+		font-size: 24px;
+	}
+	
+	ul.top {
+		background-color: #eee;
+		padding:20px 0;
+	}
+	
+	#myLinks ul.top li {
+		list-style-type: none;
+		padding: 10px 50px;
+		font-size:14px;
+	}
+
+
+	
+	h2 {
+		font-size: 32px;
+		color: #3b224c;
+		margin: 0;
+	}
+	
+	img {
+		display:block;
+	}
+		
+	.header {
+		background-color: #2D345E;
+	}
+	
+	.header-wrapper {
+		background-color: #2D345E;
+		padding: 5px 0;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1000px;
+		margin: 0 auto;
+	}		
+	
+	.header .logo {
+		flex:40%;
+	}	
+	
+	.header .logo img {
+		width:100%;
+	}
+	
+	.header .links {
+		flex: 60%;
+		text-align: right;
+	}
+
+	.header .links a {
+		color: white;
+		font-size:12px;
+		padding:0 0 0 20px;
+		text-decoration: none;
+	}
+	
+	.top-navbar {
+		background-color: #fff;
+	}
+	
+		
+	.top-navbar-wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+
+	
+	
+	.department {
+		color: #2D345E;;
+		text-transform:uppercase;
+		padding:0;
+		font-size: 12px;
+		letter-spacing: 3px;
+		padding-top:5px;
+		margin-top: 10px;
+		line-height:0;
+		margin-bottom:-10px;
+	}
+	
+	.main-nav {
+		flex:60%;
+		text-align:right;
+		align-self: center;
+	}
+	
+	.main-nav a {
+		color: #2D345E;;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.main-nav li {
+ 	    list-style-type: none;
+    	display: inline-block;
+	    padding: 20px 30px 20px;
+	}
+	
+	.main-nav li:first-child {
+		background-color: white;
+	}
+	
+	.main-nav li:first-child a {
+		color: #3b224c !important;
+	}
+	
+	.main-nav li:last-child {
+		padding-right:0 !important;
+	}
+	
+	.site-name {
+		color: #2D345E;;
+		font-size:42px;
+		font-weight:600;
+		margin:0;
+		padding:0;
+		line-height:0;
+	}
+	
+	.site-title {
+		flex:40%;
+	}
+	
+	.bottom-navbar {
+		padding: 10px 0;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper .site-links li {
+		padding-right:49px;
+		list-style-type:none;
+		display:inline;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper .site-links li:last-child {
+		padding-right:0;
+	}
+	
+	
+	.featured-image {
+		display:flex;
+		position:relative;
+	}
+	
+	.featured-text {
+		position: absolute;
+		align-self:center;
+		max-width:35%;
+		right:0;
+		margin-right:100px;
+	}
+	
+	.featured-text h2 {
+		color: white;
+		font-weight: 600;
+		text-shadow: 0 0 30px black;
+		font-size: 32px;
+		line-height:1.1;
+	}
+	
+		
+	.featured-text p {
+		color: white;
+		font-weight:600;
+		text-shadow: 0 0 30px black;
+	}
+	
+	.featured-image img {
+		width:100%;
+	}
+	
+	.featured-image .half img {
+		display:none;
+	}
+	
+	.featured-image .quarter img {
+		display:none;
+	}
+	
+	.wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+	
+	input {
+		font-size: 14px;
+		padding: 7px 10px;
+		color: black;
+	}
+
+	.find-a-doctor-wrapper {
+		background-color: #fff;
+		padding: 30px 0;
+	}
+	
+	.find-a-doctor {
+		margin: 0 auto;
+		text-align: center;
+		display: flex;
+		max-width: 1000px;
+	}
+	
+	.quick-menu-column {
+		flex: 25%;
+		display:flex;
+	}
+	
+	.quick-menu-img {
+    	flex: 25%;
+	}
+	
+	.quick-menu-text {
+		flex: 75%;
+		float: left;
+		text-align: left;
+		padding-left: 10px;
+		line-height: 1;
+		padding-right: 20px;
+		align-self: center;
+		color: #2D345E;
+	}
+	
+	.quick-menu-text p {
+		font-size: 20px;
+		font-weight:600;
+	}
+	
+	
+	
+	
+	.featured-button {
+		background: rgba(0,0,0,.2);
+		border: 2px solid white;
+		color: white;
+		font-weight: 600;
+		font-size: 16px;
+		padding: 7px 20px;
+		text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+	
+	
+	@media screen and (max-width: 1030px){
+		.main-nav {
+			flex: 80%;
+		}
+		
+		.second-section-wrapper {
+			max-width: 850px;
+		}
+		
+		.first-section-wrapper {
+			max-width: 850px;
+		}
+		
+		.quick-menu-column {
+			flex: 50;
+			padding: 10px 50px;
+		}
+		
+		.find-a-doctor {
+			flex-wrap: wrap;
+			max-width: 750px;
+		}
+		
+		.left-psychiatry {
+			padding-left:30px;
+		}
+		
+		.left-psychiatry-text h2 {
+			font-size: 24px;
+		}
+		
+		.left-psychiatry-text p {
+			font-size: 15px;
+		}
+		
+		.find-a-doctor-wrapper {
+			max-width: 850px;
+			margin: 0 auto;
+		}
+		
+		.footer-wrapper {
+			max-width: 850px;
+			padding-left: 10px;
+		}
+		
+		.top-navbar-wrapper {
+			max-width: 850px;
+		}
+		
+		.header-wrapper {
+			max-width: 850px;
+		}
+		
+		.header .logo {
+    		flex: 30%;
+			margin-top:5px;
+		}
+		
+		.bottom-navbar .bottom-navbar-wrapper {
+		    max-width: 850px;
+		}
+		
+		.bottom-navbar .bottom-navbar-wrapper .site-links li {
+			padding-right:24px;
+		}
+
+	}
+	
+
+@media screen and (max-width: 880px){
+	.first-section-wrapper {
+		padding: 30px;
+	}
+
+	.second-section-wrapper {
+		padding: 70px 30px;
+	}
+	
+	.left-psychiatry {
+		flex: 100%;
+		position: relative;
+		display: block;
+		text-align: center;
+		padding-left: 0;
+		padding: 70px;
+		background-image: url(img/surgery-image.jpg);
+		background-position: cover;
+		background-size: cover;
+	}
+	
+	.left-psychiatry:after {
+		content: "";
+		background-color: black;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;
+	}
+	
+	.left-psychiatry-text {
+		padding: 40px 30px;
+		max-width:100%;
+	}
+	
+	.left-psychiatry-text h2 {
+		background-color: transparent;
+		margin-right: 0;
+	}
+	
+	.right-psychiatry {
+		flex:100%;
+		display: none;
+	}
+	
+	
+	.bottom-navbar {
+		display:none;
+	}
+	
+	.main-nav {
+		display:none;
+	}
+	
+	.site-title {
+		padding: 10px 30px;
+	}
+	
+	.header .links {
+		display: none;
+	}
+	
+	.header .logo {
+		padding: 5px 30px;
+		max-width:500px;
+	}
+
+	.find-a-doctor-wrapper {
+		padding: 30px;
+	}
+	
+	.topnav {
+		display:block;
+	}
+
+	.footer-wrapper {
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	
+	
+	.featured-text {
+		text-align:center;
+		max-width:100%;
+		padding:20px;
+		margin:0;
+	}
+	
+	.featured-image .half img {
+		display:block;
+	}
+	
+	.featured-image .full img {
+		display:none;
+	}
+	
+	.featured-text h2 {
+		font-size:24px;
+	}
+	
+	.featured-text p {
+		font-weight:400;
+	}
+	
+	.find-a-doctor p {
+		display: block;
+		margin: 0 0 10px 0;
+	}
+	
+
+	
+	
+}
+
+@media screen and (max-width: 760px){
+	
+	.card-row {
+ 	   display: block;
+	}
+	}
+	
+@media screen and (max-width: 680px){
+	.featured-text h2 {
+		font-size:19px;
+	}
+	
+		
+.search-input {
+ 	width: 85%;
+}
+	
+	.quick-menu-column {
+		flex: 100%;
+		padding: 10px;
+	}
+	
+	.quick-menu-img {
+		display: block;
+		flex: 100%;
+	}
+	
+		
+	.quick-menu-img img {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.quick-menu-text {
+		display: block;
+		flex: 100%;
+		float:none;
+		text-align:center;
+		flex: auto;
+		}
+	
+	.quick-menu-column {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	
+	
+	.card {
+    	flex: 100%;
+}
+	
+	.care {
+		flex: 100;
+		flex-wrap: wrap;
+		text-align: center;
+		padding: 30px 20px;
+	}
+	
+	.care-cards {
+		display: block;
+	}
+	
+	.care-icon {
+ 	   flex: 100%;
+	}
+	
+	.care-icon img {
+		margin: 0 auto;
+	}
+	
+	.care-heading {
+ 	   flex: 100%;
+	}
+	
+	.first-section-wrapper {
+		display: block;
+	}
+	
+	.first-section-left {
+		padding-bottom: 100px;
+		text-align:center;
+		padding-right:0;
+		padding-left: 0;
+	}
+	
+	.first-section-right {
+		text-align:center;
+	}
+
+	
+	.footer-wrapper {
+	    max-width: 600px;
+    	padding: 20px 60px;
+    	text-align: center;
+}
+	.footer-column {
+		flex: 100%;
+		padding: 0 30px;
+	}
+
+}
+	
+@media screen and (max-width: 480px){
+	
+	.left-psychiatry {
+		padding: 10px;
+	}
+	
+	.featured-image .half img {
+		display:none;
+	}
+	.featured-image .quarter img {
+		display:block;
+	}
+	.featured-text p {
+		font-size: 14px;
+		line-height:1.2;
+	}
+	
+	.fifth-section-wrapper ul li img {
+		width: 75%;
+		width: 50px;
+	}
+	
+	.fifth-section-wrapper li {
+		padding: 0;
+	}
+	
+			
+
+}
+	
+	
+</style>	
+	
+	
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+	<div class="header-wrapper">
+	  	<div class="logo">
+			<img src="img/wu-logo.svg">
+		</div>
+		<div class="links">
+			<a href="#">Find a Doctor</a>
+			<a href="#">Request an Appointment</a>
+		</div>
+	</div>
+</div>
+
+<!-- Navigation Bar -->
+<div class="top-navbar">
+	<div class="top-navbar-wrapper">
+		<div class="site-title">
+			<div class="department"><p>Department of</p></div>
+			<div class="site-name"><p>Surgery</p></div>
+		</div>
+		<div class="topnav">
+		  <div id="myLinks">
+		<ul class="main">
+				<li>Patient Care</li>
+				<li>Academics</li>
+				<li>Research</li>
+			</ul>
+			<ul class="top">
+				<li>Find a Doctor</li>
+				<li>Request an Appointment</li>
+			</ul>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<div class="main-nav">
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Locations</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Resources</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="adolescent-imagery">
+	<div class="left-psychiatry">
+		<div class="left-psychiatry-text">
+<h2>Unlocking the key to health in the 21st century</h2>
+			<p>We solve the toughest problems for patients by offering them the latest procedures using technology.</p>
+			<button class="secondary-btn">Explore Services</button>
+		</div>
+	</div>	
+	<div class="right-psychiatry">
+		<img style="width:100%;" src="img/surgery-image.jpg">
+	</div>
+</div>	
+	
+	
+<!-- The flexible grid (content) -->
+<div class="find-a-doctor-wrapper">
+	<div class="find-a-doctor">
+		<div class="quick-menu-column">
+			<div class="quick-menu-img"><img src="img/bill-pay-svg.svg"></div>
+			<div class="quick-menu-text"><p>Online Bill Pay</p></div>
+		</div>
+		<div class="quick-menu-column">
+			<div class="quick-menu-img"><img src="img/schedule-svg.svg"></div>
+			<div class="quick-menu-text"><p>Schedule</p></div>
+		</div>
+		<div class="quick-menu-column">
+			<div class="quick-menu-img"><img src="img/find-a-doctor-svg.svg"></div>
+			<div class="quick-menu-text"><p>Find a Doctor</p></div>
+		</div>
+		<div class="quick-menu-column">
+			<div class="quick-menu-img"><img src="img/donate-svg.svg"></div>
+			<div class="quick-menu-text"><p>Donate</p></div>
+		</div>
+
+</div>
+</div>
+<div class="first-section">	
+	<div class="first-section-wrapper">
+		<div class="first-section-left">
+			<h2>The key to your health</h2>
+				<p class="sub-text">Within the Department of Surgery at Washington
+University in St. Louis, we have state of the art equipment in our five different locations spread across the St. Louis area.</p>
+				<form><input class="search-input" placeholder="Search by condition">
+				<input class="submit-input" type="image" src="img/input-button.svg" alt="Submit" width="36" height="36"></form>
+			</div>	
+	
+	<div class="first-section-right">
+		<div class="our-locations">
+			<p>Our Locations</p>
+			<ul>
+				<li>South County</li>
+				<li>West County</li>
+				<li>Central West End</li>
+				<li>Downtown</li>
+				<li>Midtown</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+
+</div>
+	
+	<div class="second-section">
+		<div class="second-section-wrapper">
+		<h2>Caring every step of the way</h2>
+		<p class="sub-text">At the heart of what we do, we work to restore, rebuild and renew your health.</p>
+		<div class="care-cards">
+			<div class="care">
+				<div class="care-icon"><img src="img/location-svg.svg"></div>
+				<div class="care-heading"><h3>Convenient locations across the city</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				</div>
+			</div>
+
+			<div class="care">
+				<div class="care-icon"><img src="img/hospital-svg.svg"></div>
+				<div class="care-heading">
+				  <h3>Services across a wide array of specialties</h3>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				</div>
+			</div>
+
+			<div class="care">
+				<div class="care-icon"><img src="img/stethoscope-svg.svg"></div>
+				<div class="care-heading">
+				  <h3>World reknowned top doctors</h3>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				</div>
+			</div>
+
+			<div class="care">
+				<div class="care-icon"><img src="img/facility-svg.svg"></div>
+				<div class="care-heading">
+				  <h3>State-of-the-art medical facilities</h3>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				</div>
+			</div>
+		</div>
+			</div>
+	</div>
+	<div class="third-section">
+		<div class="third-section-wrapper">
+			<div class="miracle-heading">
+				<h3>Miracles Happen Here.</h3>
+				<p>Meet Lisa.  Our team of experts provided her with life-saving surgery.  Read her story.</p>
+				<button class="secondary-btn">Read all testimonials</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="fourth-section">
+		<div class="fourth-section-wrapper">
+			<h2>Meet the Doctors</h2>
+			<div class="card-row">
+	<div class="card">
+				<div class="card-body">
+					<div class="headshot"><img src="img/doctor1-headshot.jpg"></div>
+					<div>
+					  <h4>Jesse Osborne, MD</h4>
+					  <p>Jesse has been with the department of surgery for five years. He specialized in Vascular and Transplant Surgery.</p>
+						<button>Book Appointment</button>
+					</div>					</div>
+			</div>
+<div class="card">
+				<div class="card-body">
+					<div class="headshot"><img src="img/doctor2-headshot.jpg"></div>
+					<div>
+					  <h4>Rachelle Jones, MD</h4>
+					  <p>Rachelle has been with the department for three years. She specializes in cardiothoracic surgery and pediatric surgery.
+
+</p>
+						<button>Book Appointment</button>
+					</div>					</div>
+			</div>
+			
+			<div class="card">
+				<div class="card-body">
+					<div class="headshot"><img src="img/doctor3-headshot.jpg"></div>
+					<div>
+					  <h4>Jason Timbone, MD</h4>
+					  <p>Jason is the chief of the general surgery division at Washington University.  He has been with the department for over 
+	20 years.</p>
+						<button>Book Appointment</button>
+					</div>					</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="fifth-section">
+		<div class="fifth-section-wrapper">
+			<ul>
+				<li><img src="img/facebook-icon.svg"></li>
+				<li><img src="img/twitter-icon.svg"></li>
+				<li><img src="img/instagram-icon.svg"></li>
+				<li><img src="img/youtube-icon.svg"></li>
+				<li><img src="img/flickr-icon.svg"></li>
+
+			</ul>
+		</div>
+	</div>
+	
+<!-- Footer -->
+<div class="footer">
+	<div class="footer-wrapper">
+		<div class="footer-column">
+			<h3 class="dept-title">Department of Surgery</h3>
+			<p class="school-name">Washington University School of Medicine</p>
+			<p class="address">660 S. Euclid Ave.</p>
+			<p class="address">St. Louis, MO 63110</p>
+			<p class="address">314-362-3570</p>
+			<p>Contact Us</p>
+		</div>
+		<div class="footer-column">
+			<h4>Divisions</h4>
+			<ul>
+				<li>Cardiothoracic Surgery</li>
+				<li>Critical Care</li>
+				<li>Colon and Rectal</li>
+				<li>Minimally-invasive</li>
+				<li>Oncology</li>
+				<li>Pediatric</li>
+				<li>Plastic and Reconstructive</li>
+				<li>Vascular</li>
+				
+
+				
+			</ul>
+		</div>
+		<div class="footer-column">
+			<h4>Quick Links</h4>
+			<ul>
+				<li>About Us</li>
+				<li>Schedule Appointment</li>
+				<li>Patient Forms</li>
+				<li>Find a Physician</li>
+				<li>News</li>
+				<li>Contact Us</li>
+
+			</ul>
+		</div>
+	</div>
+	<div class="bottom">
+		<hr/>
+		<p class="copyright">© 2020 Washington University School of Medicine</p>
+	</div>
+</div>
+</div>	
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>	
+	
+</body>
+</html>
