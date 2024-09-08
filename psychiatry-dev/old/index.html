@@ -1,0 +1,1271 @@
+<!doctype html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<meta charset="UTF-8">
+<title>Department of Psychiatry | Washington University School of Medicine</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+	
+	body {
+		margin:0;
+		padding:0;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	a {
+		color: #3b224c;
+		text-decoration:none;
+		font-weight:600;
+	}
+	
+	a:hover {
+		text-decoration:underline;
+	}
+	
+	ul {
+		padding:0;
+		margin:0;
+	}
+	
+    .slider {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: #3b224c;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+	
+
+	.topnav {
+		display:none;
+	}
+
+	.footer {
+		color: white;
+	}
+	
+	.footer-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		padding-left:100px;
+		flex-wrap: wrap;
+	}
+	
+	.footer-column {
+		flex: 33%;
+		padding-right: 50px;
+	}	
+	
+	.footer-column li {
+		list-style-type: none;
+	}
+	
+	.footer-column h2 {
+		color: white;
+		font-size: 24px;
+	}
+	
+	.address {
+		line-height:5px;
+	}
+	
+	.bottom {
+		flex: 100%;
+		padding-bottom: 10px;
+	}
+	
+	.bottom hr {
+		opacity:.3;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
+	
+	h3.dept-title {
+		font-weight:300;
+		font-size: 22px;
+		margin-top: 15px;
+		padding: 0;
+	}
+	
+.topnav #myLinks {
+  display: none;
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 0;
+	color: #3d3d3d;
+	width: 100%;
+	top:150px;
+	z-index:1000;
+	
+}
+
+.topnav a {
+  color: #3d3d3d;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  	display: block;
+  	position: absolute;
+ 	right: 0;
+	font-size:24px;
+ 	top: 80px;
+	color: white;
+}
+
+	/*
+	.myLinks {
+		display:none;
+		background-color: white;
+		color: #3d3d3d;
+		width:100%;
+		position: absolute;
+		top: 150px;
+		z-index:1000;
+	}
+		*/
+	#myLinks ul.main li {
+		list-style-type: none;
+		padding: 20px 50px;
+		border-bottom: 1px solid #eee;
+		font-size: 24px;
+	}
+	
+	ul.top {
+		background-color: #eee;
+		padding:20px 0;
+	}
+	
+	#myLinks ul.top li {
+		list-style-type: none;
+		padding: 10px 50px;
+		font-size:14px;
+	}
+
+	.lead-slider a {
+		font-size:24px;
+		text-decoration:none;
+		color: #3b224c;
+		cursor: pointer;
+	}
+
+	.mobile-news {
+		display: none;
+	}
+	
+	h2 {
+		font-size: 32px;
+		color: #3b224c;
+		margin: 0;
+	}
+	
+	.mobile-menu {
+		display: none;
+	}
+
+	
+	.left-psychiatry h2 {
+   		color: white;
+		line-height:1;
+}
+	
+	p.sub-text {
+    font-size: 20px;
+    max-width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+	
+	img {
+		display:block;
+	}
+		
+	.header {
+		background-color: #3d3d3d;
+	}
+	
+	.header-wrapper {
+		background-color: #3d3d3d;
+		padding: 5px 0;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1000px;
+		margin: 0 auto;
+	}		
+	
+	.header .logo {
+		flex:40%;
+	}	
+	
+	.header .logo img {
+		width:100%;
+	}
+	
+	.header .links {
+		flex: 60%;
+		text-align: right;
+	}
+
+	.header .links a {
+		color: white;
+		font-size:12px;
+		padding:0 0 0 20px;
+		text-decoration: none;
+	}
+	
+	.top-navbar {
+		background-color: #3b224c;
+	}
+	
+		
+	.top-navbar-wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+
+	
+	
+	.department {
+		color: white;
+		text-transform:uppercase;
+		padding:0;
+		font-size: 12px;
+		letter-spacing: 3px;
+		padding-top:5px;
+		margin-top: 10px;
+		line-height:0;
+		margin-bottom:-10px;
+	}
+	
+	.main-nav {
+		flex:60%;
+		text-align:right;
+		align-self: flex-end;
+	}
+	
+	.main-nav a {
+		color: white;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.main-nav li {
+ 	    list-style-type: none;
+    	display: inline-block;
+	    padding: 10px 30px 20px;
+	}
+	
+	.main-nav li:first-child {
+		background-color: white;
+	}
+	
+	.main-nav li:first-child a {
+		color: #3b224c !important;
+	}
+	
+	.main-nav li:last-child {
+		padding-right:0 !important;
+	}
+	
+	.site-name {
+		color: white;
+		font-size:42px;
+		font-weight:600;
+		margin:0;
+		padding:0;
+		line-height:0;
+	}
+	
+	.site-title {
+		flex:40%;
+	}
+	
+	.bottom-navbar {
+		padding: 10px 0;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper .site-links li {
+		padding-right:49px;
+		list-style-type:none;
+		display:inline;
+	}
+	
+	.bottom-navbar .bottom-navbar-wrapper .site-links li:last-child {
+		padding-right:0;
+	}
+	
+	
+	.featured-image {
+		display:flex;
+		position:relative;
+	}
+	
+	.featured-text {
+		position: absolute;
+		align-self:center;
+		max-width:35%;
+		right:0;
+		margin-right:100px;
+	}
+	
+	.featured-text h2 {
+		color: white;
+		font-weight: 600;
+		text-shadow: 0 0 30px black;
+		font-size: 32px;
+		line-height:1.1;
+	}
+	
+		
+	.featured-text p {
+		color: white;
+		font-weight:600;
+		text-shadow: 0 0 30px black;
+	}
+	
+	.featured-image img {
+		width:100%;
+	}
+	
+	.featured-image .half img {
+		display:none;
+	}
+	
+	.featured-image .quarter img {
+		display:none;
+	}
+	
+	.wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+	
+	input {
+		font-size: 14px;
+		padding: 7px 10px;
+		color: black;
+	}
+
+	.find-a-doctor-wrapper {
+		background-color: #f4c784;
+		padding: 30px 0;
+	}
+	
+	.find-a-doctor {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.find-a-doctor p {
+		display: inline;
+		font-weight:600;
+		font-size:20px;
+		color:#3d3d3d;
+	}
+	
+	.custom-select {
+    	display: inline;
+	}
+	
+	.zip {
+		display: inline;
+	}
+	
+	.be-well-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		text-align:center;
+		margin-top:60px !important;
+	}
+	
+	.be-well-columns {
+		display:flex;
+		margin:0 auto;
+		max-width:1000px;
+		padding-bottom:75px;
+	}
+	
+	.be-well-column-1 {
+		flex:67%;
+	}
+	
+	.be-well-column-2 {
+		flex:33%;
+	}
+	
+
+	.custom-select select {
+		padding: 7px 10px;
+		padding-right: 100px;
+		font-size: 15px;
+	}
+	
+	.custom-select {
+		margin: 0 20px;
+	}
+	
+	.box-1 {
+		width:100%:
+		padding-top:75%;
+		margin:5px;
+		display:flex;
+		position:relative;
+	}
+	
+	
+	.box-1 img {
+		width:100%;
+	}
+	
+	.box-2 {
+		width:100%:
+		padding-top:75%;
+		margin: 5px 5px 10px;
+		display:flex;
+		position:relative;
+		
+	}
+	
+	.box-2 img {
+		width:100%;
+	}
+	
+	.box-3 {
+		width:100%:
+		padding-top:75%;
+		margin: 13px 5px 0;
+		display:flex;
+		position:relative;
+	}
+	
+	.box-3 img {
+		width:100%;
+	}
+	
+	.infographics {
+		margin: 0;
+	}
+	
+	.infographics-wrapper {
+		display: flex;
+		max-width: 1000px;
+		margin: 0 auto;
+		color: #3b224c;
+	}
+	
+	.info-stat {
+		font-weight:900;
+		text-align:center;
+		padding:10px 40px
+	}
+	
+	.info-stat .stat-heading{
+		font-size:48px;
+	}
+	
+	.adolescent-imagery {
+		display:flex;
+		flex-wrap:wrap;
+		background-color: #3b224c;
+		background-image:url("img/science-background.jpg");
+		background-position: bottom left;
+	}
+	
+	.left-psychiatry {
+		color:white;
+		flex:50%;
+		align-self: center;
+	}
+	
+	.left-psychiatry-text {
+		max-width: 500px;
+		float:right;
+		padding-right:50px;
+	}
+	
+	.right-psychiatry {
+		flex:50%;
+		background-image:url("img/child-and-baby2.jpg");
+		background-size:cover;
+		background-position: 50% 50%;
+	}
+	
+	.access-care {
+		margin: 100px 0 0 0;
+		text-align:center;
+	}
+	
+	.access-care-icons {
+		display:flex;
+
+	}
+	
+	.access-care-icon {
+		flex:33%;
+		padding: 0 50px;
+	}
+	
+	.access-care-icon img {
+		margin: 0 auto;
+	}
+	
+	.access-care-icon h3 {
+		text-align: center;
+	}
+
+	.access-care-icon p {
+		text-align: center;
+	}
+	
+	
+	.access-wrapper {
+		max-width:1000px;
+		margin:0 auto;
+	}
+	
+	.news {
+		margin: 100px 0;
+	}
+	
+	.news h2 {
+		text-align: center;
+	}
+	
+	.footer {
+		background-color: #3b224c;
+		min-height:100px;
+	}
+	
+	.secondary-btn {
+		padding: 10px 20px;
+		font-size: 18px;
+		font-weight: 600;
+		background-color: #face87;
+		border: 1px solid white;
+		cursor: pointer;
+	}
+	
+	input.submit {
+		background-color: #3b224c;
+		border: none;
+		color: white;
+		padding: 7px 25px;
+		font-size: 16px;
+	}
+	
+	.box-subtext {
+		flex:100%;
+		position: absolute;
+		width:100%;
+		background-color:#3b224c;
+		color:white;
+		height:35px;
+		align-self: flex-end;
+	}
+	
+	.box-subtext p {
+		padding:5px 10px;
+		margin:0;
+		font-weight:600;
+	}
+	
+		
+	.box-subtext a {
+		color: white;
+		text-decoration:none;
+		font-weight:600;
+	}
+	
+	.box-subtext a:hover {
+		text-decoration:underline;
+	}
+	
+	.first-section {
+		background-image:url("img/science-graphic2.png");
+		background-repeat:no-repeat;
+		background-position: left bottom;
+		padding-bottom:75px;
+	}
+	
+	.featured-button {
+		background: rgba(0,0,0,.2);
+		border: 2px solid white;
+		color: white;
+		font-weight: 600;
+		font-size: 16px;
+		padding: 7px 20px;
+		text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+	@media screen and (max-width: 1200px){
+		p.lead-slider a {
+			font-size: 18px;
+		}
+	}
+	
+	@media screen and (max-width: 1030px){
+		.footer-wrapper {
+			max-width: 850px;
+			padding-left: 10px;
+		}
+		
+		.top-navbar-wrapper {
+			max-width: 850px;
+		}
+		
+		.header-wrapper {
+			max-width: 850px;
+		}
+		
+		.header .logo {
+    		flex: 30%;
+			margin-top:5px;
+		}
+		
+		.bottom-navbar .bottom-navbar-wrapper {
+		    max-width: 850px;
+		}
+		
+		.bottom-navbar .bottom-navbar-wrapper .site-links li {
+			padding-right:24px;
+		}
+		
+		.left-psychiatry-text {
+			padding-left:30px;
+		}
+		
+		.mobile-news {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	
+		.slider {
+			display: none;
+		}
+		
+		.news-item {
+			flex: 50%;
+			padding: 50px 20px 0;
+			margin: 0 auto;
+			text-align: center;
+		}
+		
+		.news-item img {
+    		margin: 0 auto;
+		}
+	}
+	
+
+@media screen and (max-width: 880px){
+	.left-psychiatry {
+		flex:100%;
+		text-align:center;
+	}
+	
+	.left-psychiatry-text {
+		padding: 80px 30px;
+		max-width:100%;
+	}
+	
+	.right-psychiatry {
+		flex:100%;
+	}
+	
+	.bottom-navbar {
+		display:none;
+	}
+	
+	.main-nav {
+		display:none;
+	}
+	
+	.site-title {
+		padding: 10px 30px;
+	}
+	
+	.header .links {
+		display: none;
+	}
+	
+	.header .logo {
+		padding: 5px 30px;
+		max-width:500px;
+	}
+	
+	.mobile-menu {
+		position: absolute;
+		display: block;
+		right: 0;
+		padding-right:30px;
+		padding-top:40px;		
+	}
+	
+	
+	.topnav {
+		display:block;
+	}
+
+	.footer-wrapper {
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.featured-text {
+		text-align:center;
+		max-width:100%;
+		padding:20px;
+		margin:0;
+	}
+	
+	.featured-image .half img {
+		display:block;
+	}
+	
+	.featured-image .full img {
+		display:none;
+	}
+	
+	.featured-text h2 {
+		font-size:24px;
+	}
+	
+	.featured-text p {
+		font-weight:400;
+	}
+	
+	.find-a-doctor p {
+		display: block;
+		margin: 0 0 10px 0;
+	}
+	
+	.custom-select {
+		display: block;
+		margin:0 auto;
+		padding-bottom:10px;
+	}
+	
+	.zip {
+		display: block;
+	}
+
+	input {
+		width: 240px;
+	}
+	
+	input.submit {
+		display: block;
+		margin: 0 auto;
+		margin-top:10px;
+	}
+	
+
+	
+	
+}
+
+	
+	
+@media screen and (max-width: 650px){
+	.info-stat {
+		flex:100%;
+		padding:30px;
+	}
+	
+	.access-care-icons {
+		flex-wrap: wrap;
+	}
+	
+	.access-care-icon {
+		flex: 100%;
+		padding: 30px;
+	}
+	
+	.infographics-wrapper {
+		flex-wrap: wrap;
+	}
+	
+	.be-well-columns {
+		flex-wrap:wrap;
+		display: block;
+	}
+	
+	.be-well-column-1 {
+		flex: 100;
+		margin-bottom:20px;
+	}
+	
+	.be-well-column-2 {
+		flex: 100;
+	}
+	
+	.box-2 {
+		margin-bottom:20px;
+	}
+	
+	.featured-text h2 {
+		font-size:19px;
+	}
+	
+	p.sub-text {
+		max-width: 100%;
+	}
+	
+	.access-care {
+		padding: 0 30px;
+	}
+	
+	.footer-wrapper {
+	    max-width: 600px;
+    	padding: 20px 60px;
+    	text-align: center;
+}
+	.footer-column {
+		flex: 100%;
+	}
+
+}
+	
+@media screen and (max-width: 480px){
+	.featured-image .half img {
+		display:none;
+	}
+	.featured-image .quarter img {
+		display:block;
+	}
+	.featured-text p {
+		font-size: 14px;
+		line-height:1.2;
+	}
+	
+}
+	
+	
+</style>	
+	
+	
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+	<div class="header-wrapper">
+	  	<div class="logo">
+			<img src="img/wu-logo.svg">
+		</div>
+		<div class="links">
+			<a href="#">Find a Doctor</a>
+			<a href="#">Clinics and Locations</a>
+			<a href="#">My Chart</a>
+			<a href="#">Request an Appointment</a>
+		</div>
+	</div>
+</div>
+
+<!-- Navigation Bar -->
+<div class="top-navbar">
+	<div class="top-navbar-wrapper">
+		<div class="site-title">
+			<div class="department"><p>Department of</p></div>
+			<div class="site-name"><p>Psychiatry</p></div>
+		</div>
+		<div class="topnav">
+		  <div id="myLinks">
+		<ul class="main">
+				<li>Patient Care</li>
+				<li>Academics</li>
+				<li>Research</li>
+			</ul>
+			<ul class="top">
+				<li>Find a Doctor</li>
+				<li>Clinics and Locations</li>
+				<li>My Chart</li>
+				<li>Request an Appointment</li>
+			</ul>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		
+		<!--<div class="mobile-menu">  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="img/mobile-menu.svg"></a></div>
+		<div class="myLinks">
+			<ul class="main">
+				<li>Patient Care</li>
+				<li>Academics</li>
+				<li>Research</li>
+			</ul>
+			<ul class="top">
+				<li>Find a Doctor</li>
+				<li>Clinics and Locations</li>
+				<li>My Chart</li>
+				<li>Request an Appointment</li>
+			</ul>
+		</div>-->
+		<div class="main-nav">
+			<ul>
+				<li><a href="#">Patient Care</a></li>
+				<li><a href="#">Academics</a></li>
+				<li><a href="#">Research</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="bottom-navbar">
+	<div class="bottom-navbar-wrapper">
+		<div class="site-links">
+			<ul>
+				<li><a href="#">Our Expertise</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">Appointments</a></li>
+				<li><a href="#">Find a Doctor</a></li>
+				<li><a href="#">Patient Forms</a></li>
+				<li><a href="#">Locations</a></li>
+				<li><a href="#">Pay a Bill</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+	
+<div class="featured-image">
+	<div class="featured-text">
+		<h2>On the frontlines of medical breakthroughs</h2>
+		<p>We work everyday to care for our patients through exhaustive clinical research and practice.</p>
+		<button class="featured-button">Explore Locations</button>
+	</div>
+	<div class="full"><img src="img/featured-image2.jpg"></div>
+	<div class="half"><img src="img/featured-image3.jpg"></div>
+	<div class="quarter"><img src="img/featured-image4.jpg"></div>
+
+	
+</div>
+	
+	
+<!-- The flexible grid (content) -->
+<div class="find-a-doctor-wrapper">
+	<div class="find-a-doctor">
+		<p>Find a Doctor</p>
+		<div class="custom-select" style="width:300px;">
+		  <select>
+			<option value="0">Select specialty:</option>
+			<option value="1">Addiction Psychiatry</option>
+			<option value="2">Child Psychiatry</option>
+			<option value="3">Geriatric Psychiatry</option>
+			<option value="4">Pain Management</option>
+			<option value="5">Pyschosomatic Disorders</option>
+			<option value="6">Psychotherapy</option>
+		  </select>
+		</div>
+<form class="zip" action="#">
+  <input placeholder="Enter Zip Code">
+  <input class="submit" type="submit" value="Go">
+</form>	</div>
+</div>
+<div class="first-section">	
+	<div class="be-well">
+		<div class="be-well-wrapper">
+			<h2>Be Well. Stay Well.</h2>
+				<p class="sub-text">We cover all areas of psychiatric care, specializing in three different areas.</p>
+		</div>	
+	</div>	
+	<div class="be-well-columns">
+		<div class="be-well-column-1">
+			<div class="box-1">
+				<div class="box-subtext"> <p><a href="#">General Psychiatry »</a></p></div>
+				<a href="#"><img src="img/img-1.jpg"></a>
+			</div>	
+		</div>
+		<div class="be-well-column-2">
+			<div class="box-2">
+				<div class="box-subtext"> <p><a href="#">Pediatric Psychiatry »</a></p></div>
+				<a href="#"><img src="img/img-2.jpg"></a>
+			</div>
+			<div class="box-3">
+				<div class="box-subtext"> <p><a href="#">Geriatric Psychiatry »</a></p></div>
+				<a href="#"><img src="img/img-3.jpg"></a>
+			</div>
+		</div>
+	</div>	
+
+	<div class="infographics">
+		<div class="infographics-wrapper">
+		<div class="info-stat">
+			<div class="stat-heading">18</div>
+			<div class="sub-stat">patent filings in the year 2019</div>
+		</div>	
+		<div class="info-stat">
+			<div class="stat-heading">$485</div>
+			<div class="sub-stat">million in NIH funding</div>
+		</div>	
+		<div class="info-stat">
+			<div class="stat-heading">1.2</div>
+			<div class="sub-stat">million in outpatient visits</div>
+		</div>	
+		<div class="info-stat">
+			<div class="stat-heading">#8</div>
+			<div class="sub-stat">top medical school in the U.S.</div>
+		</div>	
+		</div>
+	</div>	
+</div>
+<div class="adolescent-imagery">
+	<div class="left-psychiatry">
+		<div class="left-psychiatry-text">
+			<h2>Child & Adolescent Psychiatry</h2>
+			<p>Our shared mission is to bring new innovations to the prevention of psychiatric conditions of childhood as well as to deliver clinical psychiatric care and innovative treatment to children and adolescents.</p>
+			<button class="secondary-btn">Find a Doctor</button>
+		</div>
+	</div>	
+	<div class="right-psychiatry">
+		<img style="width:100%;" src="img/child-and-baby2.jpg">
+	</div>
+</div>	
+
+<div class="access-wrapper">		
+	<div class="access-care">
+		<h2>Access care from anywhere</h2>	
+		<p class="sub-text">Whether you're a local resident or reside on the other side of the world, we have a way to care for you.</p>
+	</div>
+
+	<div class="access-care-icons">
+		<div class="access-care-icon">
+			<img src="img/icon-1.png">
+			<h3>Convenient locations across the city</h3>
+			<p>Our therapists meet with you from seven different locations across the city.</p>
+		</div>	
+		<div class="access-care-icon">
+			<img src="img/icon-2.png">
+			<h3>Phone counseling worldwide</h3>
+			<p>We can provide therapy sessions to people across the world through phone.</p>
+		</div>
+		<div class="access-care-icon">
+			<img src="img/icon-3.png">
+			<h3>Virtual health appointments</h3>
+			<p>We offer services available through our e-health app to anyone in the world.</p>
+		</div>	
+	</div>	
+</div>	
+
+<div class="news">
+	<h2>News & Research</h2>	
+
+  <section class="center slider">
+    <div>
+      <img src="img/baby-thumb.jpg">
+		<p class="lead-slider"><a href="#">In autism, genes drive early gaze abnormalities</a></p>
+		<p class="sub-slider">Twin study reveals strong genetic influences on how infants visually explore.</p>
+    </div>
+    <div>
+      <img src="img/dementia-thumb.jpg">
+		<p class="lead-slider"><a href="#">New genetic clues to early-onset dementia</a></p>
+		<p class="sub-slider">Culprit is lone error in one gene, but researchers find many potential targets.</p>
+    </div>
+    <div>
+      <img src="img/depression-thumb.jpg">
+		<p class="lead-slider"><a href="#">Childhood depression alters brain development</a></p>
+		<p class="sub-slider">Findings show why we have difficulty regulating moods and emotions.</p>
+    </div>
+    <div>
+      <img src="img/ai-thumb.jpg">
+		<p class="lead-slider"><a href="#">AI helps identify networks that shape personality.</a></p>
+		<p class="sub-slider">Personality genes are strongly linked to learning memory.</p>
+    </div>
+    <div>
+      <img src="img/perfectionism-thumb.jpg">
+		<p class="lead-slider"><a href="#">Perfectionism in young children may indicate OCD.</a></p>
+		<p class="sub-slider">Study involving behavior, brain scans may help ID issues early in life.</p>
+    </div>
+
+  </section>
+
+<section class="mobile-news">
+    <div class="news-item">
+      <img src="img/baby-thumb.jpg">
+		<p class="lead-slider"><a href="#">In autism, genes drive early gaze abnormalities</a></p>
+		<p class="sub-slider">Twin study reveals strong genetic influences on how infants visually explore.</p>
+    </div>
+    <div class="news-item">
+      <img src="img/dementia-thumb.jpg">
+		<p class="lead-slider"><a href="#">New genetic clues to early-onset dementia</a></p>
+		<p class="sub-slider">Culprit is lone error in one gene, but researchers find many potential targets.</p>
+    </div>
+    <div class="news-item">
+      <img src="img/depression-thumb.jpg">
+		<p class="lead-slider"><a href="#">Childhood depression alters brain development</a></p>
+		<p class="sub-slider">Findings show why we have difficulty regulating moods and emotions.</p>
+    </div>
+    <div class="news-item">
+      <img src="img/ai-thumb.jpg">
+		<p class="lead-slider"><a href="#">AI helps identify networks that shape personality.</a></p>
+		<p class="sub-slider">Personality genes are strongly linked to learning memory.</p>
+    </div>
+    <div class="news-item">
+      <img src="img/perfectionism-thumb.jpg">
+		<p class="lead-slider"><a href="#">Perfectionism in young children may indicate OCD.</a></p>
+		<p class="sub-slider">Study involving behavior, brain scans may help ID issues early in life.</p>
+    </div>
+
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 2
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+</div>
+	
+<!-- Footer -->
+<div class="footer">
+	<div class="footer-wrapper">
+		<div class="footer-column">
+			<h3 class="dept-title">Department of Psychiatry</h3>
+			<p class="school-name">Washington University School of Medicine</p>
+			<p class="address">660 S. Euclid Ave.</p>
+			<p class="address">St. Louis, MO 63110</p>
+			<p class="address">314-362-3570</p>
+			<p>Contact Us</p>
+		</div>
+		<div class="footer-column">
+			<h4>Services</h4>
+			<ul>
+				<li>General Psychiatric</li>
+				<li>Pediatric Psychiatric</li>
+				<li>Geriatric Psychiatric</li>
+			</ul>
+		</div>
+		<div class="footer-column">
+			<h4>Quick Links</h4>
+			<ul>
+				<li>About Us</li>
+				<li>Schedule Appointment</li>
+				<li>Patient Forms</li>
+				<li>Find a Physician</li>
+				<li>News</li>
+				<li>Contact Us</li>
+
+			</ul>
+		</div>
+	</div>
+	<div class="bottom">
+		<hr/>
+		<p class="copyright">© 2020 Washington University School of Medicine</p>
+	</div>
+</div>
+</div>	
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>	
+	
+</body>
+</html>
