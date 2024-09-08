@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="44px" viewBox="0 0 47 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Profile Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="600-px-Header" transform="translate(-467.000000, -9.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="Profile-Copy" transform="translate(467.000000, 9.000000)">
+                    <path d="M28.1945362,26.049248 C36.2611802,26.2989158 43.0560332,27.8142992 46.8287679,37.0120703 C46.8287679,37.0120703 45.2227468,43.2120703 22.9595889,43.2120703 C0.696430971,43.2120703 0,37.0120703 0,37.0120703 C3.75864724,28.5040531 10.2786959,26.5458471 18.0012664,26.1155879 C19.5126413,27.0133111 21.226524,27.52 23.0428241,27.52 C24.9033955,27.52 26.6564959,26.9883096 28.1945362,26.049248 L28.1945362,26.049248 Z" id="Combined-Shape"></path>
+                    <ellipse id="Oval" cx="23.0428241" cy="12.76" rx="11.0428241" ry="12.76"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
