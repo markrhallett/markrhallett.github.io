@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+@import url(http://allfont.net/allfont.css?fonts=montserrat-bold);
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+body {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;    
+}
+
+p {
+      font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, li {
+      font-family: 'Montserrat', sans-serif !important;
+}
+
+.lead {
+    font-size: 14px !important;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.item img {
+    float: none;
+    margin: 0 auto;
+}
+
+.active {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.img-fluid {
+    max-width:100%;
+    height: auto;
+    text-align: center;
+}
+
+
+
+.list-inline li {
+    padding-bottom: 20px;
+}
+
+
+
+.ux-projects {
+    padding-bottom:30px;
+}
+
+.center-block {
+  display: table;
+  margin: 0 auto;
+}
+
+.youtube {
+  max-width: 600px;
+
+}
+
+.case-study {
+    text-align: left;
+}
+
+.btn-xl {
+    background-color: #FFC145 !important;
+    color: white;
+}
+
+footer {
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    color: #fff; 
+    background-size: cover;
+    border-top: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer a{
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 14px;
+}
+
+#middle {
+    margin-top:50px;
+    padding-top:50px;
+    background-color: #ffffff;
+    margin-bottom: 70px;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+#myCarousel {
+    margin-top: 50px;
+}
+
+.footerblock{
+    margin-bottom:50px;
+}
+
+.hover-pic:hover{
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#about {
+    margin-bottom: 100px;
+}
+
+.about-me  {
+    font-size:18px;
+    margin-bottom:20px;
+    font-family: 'Montserrat-light', sans-serif;  
+}
+
+.mont  {
+    font-size:18px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 40px 0 40px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+#portfolio .portfolio-link a {
+    overflow: hidden;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+#portfolio h1 {
+    margin-top:60px;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-black {
+    background-color: #222;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: cover;
+}
+
+
+.icon {
+    border: 1px solid #e4e4e4;
+}
+
+.designbtn{
+   background-image: url('../img/view-design-btn-sprite.png');
+   height: 48px;
+   width: 192px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.designbtn:hover {
+   background-position: 192px 0;
+}
+
+.portfoliobtn{
+   background-image: url('../img/view-portfolio-btn.png');
+   height: 44px;
+   width: 187px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfoliobtn:hover {
+   background-position: 187px 0;
+}
+
+.uxbtn{
+   background-image: url('../img/view-ux-btn-sprite.png');
+   height: 48px;
+   width: 192px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.uxbtn:hover {
+     background-position: 192px 0;
+}
+
+.renderingsbtn{
+   background-image: url('../img/view-3d-btn-sprite.png');
+   height: 48px;
+   width: 192px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.renderingsbtn:hover {
+   background-position: 192px 0;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    
+}
+
+.top {
+    background-color: black;
+}
+
+header {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: cover;
+}
+
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.cd-title {
+  position: relative;
+  height: 160px;
+  line-height: 230px;
+  text-align: center;
+}
+.cd-title h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+  .cd-title {
+    line-height: 250px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-title {
+    height: 200px;
+    line-height: 300px;
+  }
+  .cd-title h1 {
+    font-size: 3rem;
+  }
+}
+
+.cd-intro {
+  width: 100%;
+  max-width: 968px;
+  text-align: center;
+}
+
+.cd-intro {
+  margin: 4em auto;
+}
+@media only screen and (min-width: 768px) {
+  .cd-intro {
+    margin: 5em auto;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-intro {
+    margin: 6em auto;
+  }
+}
+
+.cd-headline {
+  font-size: 32px;
+  line-height: 1.2;
+  color: white;
+ font-family: 'montserrat-bold', sans-serif !important;
+}
+@media only screen and (min-width: 768px) {
+  .cd-headline {
+    font-size: 64px;
+    font-weight: 300;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-headline {
+    font-size: 64px;
+  }
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+/* -------------------------------- 
+
+
+xtype 
+
+-------------------------------- */
+.cd-headline.type .cd-words-wrapper {
+  vertical-align: top;
+  overflow: hidden;
+}
+.cd-headline.type .cd-words-wrapper::after {
+  /* vertical bar */
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 90%;
+  width: 1px;
+  background-color: #aebcb9;
+}
+.cd-headline.type .cd-words-wrapper.waiting::after {
+  -webkit-animation: cd-pulse 1s infinite;
+  -moz-animation: cd-pulse 1s infinite;
+  animation: cd-pulse 1s infinite;
+}
+.cd-headline.type .cd-words-wrapper.selected {
+  background-color: #aebcb9;
+}
+.cd-headline.type .cd-words-wrapper.selected::after {
+  visibility: hidden;
+}
+.cd-headline.type .cd-words-wrapper.selected b {
+  color: #0d0d0d;
+}
+.cd-headline.type b {
+  visibility: hidden;
+}
+.cd-headline.type b.is-visible {
+  visibility: visible;
+}
+.cd-headline.type i {
+  position: absolute;
+  visibility: hidden;
+}
+.cd-headline.type i.in {
+  position: relative;
+  visibility: visible;
+}
+
+@-webkit-keyframes cd-pulse {
+  0% {
+    -webkit-transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+@-moz-keyframes cd-pulse {
+  0% {
+    -moz-transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -moz-transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -moz-transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes cd-pulse {
+  0% {
+    -webkit-transform: translateY(-50%) scale(1);
+    -moz-transform: translateY(-50%) scale(1);
+    -ms-transform: translateY(-50%) scale(1);
+    -o-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-50%) scale(0.9);
+    -moz-transform: translateY(-50%) scale(0.9);
+    -ms-transform: translateY(-50%) scale(0.9);
+    -o-transform: translateY(-50%) scale(0.9);
+    transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%) scale(0);
+    -moz-transform: translateY(-50%) scale(0);
+    -ms-transform: translateY(-50%) scale(0);
+    -o-transform: translateY(-50%) scale(0);
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+/* -------------------------------- 

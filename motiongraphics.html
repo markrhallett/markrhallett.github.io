@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name=”robots” content=”noindex”>
+
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Hallett Creative - Animation</title>
+
+    <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">  
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+ 
+<!--Bootstrap-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+<!--Latest stable release of jQuery Core Library-->
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script> 
+
+<!--Bootstrap JS-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+      
+  <style>
+      .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+      </style>      
+    <script>
+    $(document).ready(function() {
+    $('.modal').each(function() {
+        $this = $(this);
+        $this.on('shown.bs.modal', function() {
+            toggleVideo('playVideo', $(this));
+        });
+
+        $this.on('hidden.bs.modal', function(){
+           toggleVideo('pauseVideo', $(this));
+        })
+   });
+
+    function toggleVideo(state, div) {
+        var iframe = div.find("iframe")[0].contentWindow;
+        iframe.postMessage('{"event":"command","func":"' + state + '","args":""}', '*');
+    }
+});  
+        </script>
+      <style>
+      .modal-dialog {}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+}</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+<body>   
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/hc-logo.svg"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+                   <ul class="nav navbar-nav">
+        
+
+                       <li><a href="graphicdesign.html">Design</a></li>
+                            <li><a href="ux.html">UX</a></li>
+                            <li><a href="motiongraphics.html">Animation</a></li>
+                            <li><a href="front-end.html">Front-End Development</a></li>
+
+                            
+              
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+        
+
+          
+       <div class="container">
+
+      <div class="starter-template">
+        <h2>Animation</h2>
+        <p class="lead">Motion Graphics, Augmented Reality, Virtual Reality and Character Animation</p>
+      
+          
+          
+          
+          
+          
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                   
+          
+
+    
+    <!-- Button HTML (to Trigger Modal) -->
+             <div class="col-md-12 col-sm-12 col-xs-12 portfolio-item">
+                 <div class="videoWrapper"> 
+                 <iframe width="960" height="540" src="https://www.youtube.com/embed/yyrfZ7r9m5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+                 <!--
+                 <li class="portfolio-link">        
+                    <a href="#myModal" data-toggle="modal" class="portfolio-link">
+    
+                    <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                 <p>View Animation</p>
+                            </div>
+                                            </div>
+                        
+               <img class="img-fluid icon"  src="img/motiongraphics-icon.jpg"><br>
+                         </a></li>
+                    <div class="portfolio-caption">
+                        <p class="lead">2D and 3D Motion Graphics Reel</p>
+                      
+                    </div>-->
+                </div>
+            </div>
+        </div>
+          </section>
+               <h2>Other Animation</h2>
+      
+          
+          
+          
+          
+          
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                           
+                
+                
+                
+                 <div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+                     <li class="portfolio-link">        
+                    <a href="#myModal2" data-toggle="modal" class="portfolio-link">
+    
+                    <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                 <p>View Animation</p>
+                            </div>
+                                            </div>
+                        
+               <img class="img-fluid icon"  src="img/view-ar-btn.jpg"><br>
+                         </a></li>
+                    <div class="portfolio-caption">
+                        <p class="lead">Augmented Reality example using Spark AR</p>
+                      
+                    </div>
+                </div>
+    
+                 <div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+                     <li class="portfolio-link">        
+                    <a href="#myModal3" data-toggle="modal" class="portfolio-link">
+    
+                    <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                 <p>View Animation</p>
+                            </div>
+                                            </div>
+                        
+               <img class="img-fluid icon"  src="img/view-vr-btn.jpg"><br>
+                         </a></li>
+                    <div class="portfolio-caption">
+                        <p class="lead">360 Degree VR Example using Cinema4D</p>
+                      
+                    </div>
+                </div>
+    
+                 <div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+                     <li class="portfolio-link">        
+                    <a href="#myModal4" data-toggle="modal" class="portfolio-link">
+    
+                    <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                 <p>View Animation</p>
+                            </div>
+                                            </div>
+                        
+               <img class="img-fluid icon"  src="img/view-character-btn.jpg"><br>
+                         </a></li>
+                    <div class="portfolio-caption">
+                        <p class="lead">Character Animation Reel</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+           </div>
+    </div>
+                
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Augmented Reality</h4>
+                </div>
+                <div class="modal-body">
+                                     <div class="embed-responsive embed-responsive-16by9">
+                   <iframe width="560" height="315" class="embed-responsive-item" id="youtubeplayer" src="https://www.youtube.com/embed/yyrfZ7r9m5Q?list=PLDcnymzs18LWrKzHmzrGH1JzLBqrHi3xQ&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="myModal2" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Augemented Reality</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" class="embed-responsive-item"  id="youtubeplayer" src="https://www.youtube.com/embed/qKXf9YQDwd4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <div id="myModal3" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Virtual Reality</h4>
+                </div>
+                <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9">
+
+           <iframe width="560" height="315" class="embed-responsive-item" id="youtubeplayer" src="https://www.youtube.com/embed/5zdwrCE5NBo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div id="myModal4" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Character Animation</h4>
+                </div>
+                <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9">
+
+    <iframe width="560" height="315" class="embed-responsive-item" id="youtubeplayer" src="https://www.youtube.com/embed/YjY6gPCwHqI" frameborder="0" allowfullscreen></iframe>
+                                            
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+<footer>
+    <div class="container">
+        
+        <div class="row">
+        <div class="col-md-12">
+            <p class="text-center"> © 2023 Hallett Creative.</p>
+            </div>
+        </div>
+    </div>
+</footer>      
+    <script>
+    $(document).ready(function() {
+    $('.modal').each(function() {
+        $this = $(this);
+        $this.on('shown.bs.modal', function() {
+            toggleVideo('playVideo', $(this));
+        });
+
+        $this.on('hidden.bs.modal', function(){
+           toggleVideo('pauseVideo', $(this));
+        })
+   });
+
+    function toggleVideo(state, div) {
+        var iframe = div.find("iframe")[0].contentWindow;
+        iframe.postMessage('{"event":"command","func":"' + state + '","args":""}', '*');
+    }
+});  
+        </script>
+
+    
+    
+    </body>
+
+
+</html>
